@@ -1,21 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    // Simulando o movimento da Torre
-    // Utiliza a estrutura de repetição FOR
+    // Torre
+   
     int movimentoTorre = 5;
-    printf("Movimento da Torre:\n");
+    printf("Torre:\n");
     for (int i = 0; i < movimentoTorre; i++) {
         printf("Direita\n");
     }
 
     printf("\n");
-
-    // Simulando o movimento do Bispo
-    // Utiliza a estrutura de repetição WHILE
+ 
+    // Bispo
     int movimentoBispo = 5;
     int contadorBispo = 0;
-    printf("Movimento do Bispo:\n");
+    printf("Bispo:\n");
     while (contadorBispo < movimentoBispo) {
         printf("Cima Direita\n");
         contadorBispo++;
@@ -23,11 +22,11 @@ int main() {
 
     printf("\n");
 
-    // Simulando o movimento da Rainha
-    // Utiliza a estrutura de repetição DO-WHILE
+    // Rainha
+    
     int movimentoRainha = 8;
     int contadorRainha = 0;
-    printf("Movimento da Rainha:\n");
+    printf("Rainha:\n");
     do {
         printf("Esquerda\n");
         contadorRainha++;
